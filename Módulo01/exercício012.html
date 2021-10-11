@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <hr>
+    <h2>Estes métodos podem gerar muito custo para o cliente pois <br>consomem muitos dados!!!!</h2>
+    <p>Esse vídeo está hospedado no meu próprio servidor</p>
+    <p>Desta maneira:</p>
+    <video src="videos/video.mp4" width="560" controls></video>
+
+    <p>ou desta maneira, adicionando ainda uma imagem de frame com a tag poster:</p>
+    <video controls width="560" poster="html5-200.png" autoplay loop>
+        <source src="videos/video.mp4" type="video/mp4">
+    </video>
+    <h1>Iserindo vídeos do Youtube</h1>
+    <p>Maneira para se resolver o problema de custos anteriormente citado.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    
+    
+</body>
+</html>
